@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NVIDIA Spectrum Networking · NCP-AIN Study Hub</title>
+  <meta name="description" content="Configure, optimize, secure, and troubleshoot Spectrum-X switches. Demonstrate skills using tools such as NVIDIA NetQ, CloudAI Benchmark, and DPUs; define advanced QoS and telemetry; monitor and tune network performance; and resolve complex real-world connectivity and microsegmentation scenarios in Ethernet-based AI fabrics.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html" aria-label="NCP-AIN Study Hub home">
+        <picture>
+          <source srcset="assets/nvidia-logo-white.svg" media="(prefers-color-scheme: dark)">
+          <img src="assets/nvidia-logo.svg" alt="NVIDIA" width="131" height="24">
+        </picture>
+        <span class="brand-text">NCP-AIN Study Hub</span>
+      </a>
+    </div>
+    <nav class="topics" aria-label="Certification study topics">
+      <a href="data-center-design.html"><span class="num">1</span>AI Data Center Design and Optimization</a>
+      <a href="spectrum-networking.html" aria-current="page"><span class="num">2</span>NVIDIA Spectrum Networking</a>
+      <a href="infiniband-networking.html"><span class="num">3</span>NVIDIA InfiniBand Networking</a>
+      <a href="kubernetes-integration.html"><span class="num">4</span>Kubernetes Integration</a>
+      <a href="troubleshooting-tools.html"><span class="num">5</span>Troubleshooting Tools</a>
+      <a href="automation-and-configuration.html"><span class="num">6</span>Automation and Configuration</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Topic 2 · 30% of exam</p>
+      <h1>NVIDIA Spectrum Networking</h1>
+      <p class="lede">Configure, optimize, secure, and troubleshoot Spectrum-X switches. Demonstrate skills using tools such as NVIDIA NetQ, CloudAI Benchmark, and DPUs; define advanced QoS and telemetry; monitor and tune network performance; and resolve complex real-world connectivity and microsegmentation scenarios in Ethernet-based AI fabrics.</p>
+    </section>
+    <section>
+      <h2>Exam objectives</h2>
+      <ol class="objectives">
+        <li><span class="obj-num">2.1</span>Configure NVIDIA Spectrum-X switches for RDMA over Converged Ethernet (RoCE) to enable high-speed, low-latency communication.</li>
+        <li><span class="obj-num">2.2</span>Enable and verify QoS, explicit congestion notification (ECN), and priority flow control (PFC), advanced features like adaptive routing, and telemetry.</li>
+        <li><span class="obj-num">2.3</span>Configure multi-tenancy Border Gateway Protocol Ethernet VPN (BGP-EVPN) to isolate tenant workloads.</li>
+        <li><span class="obj-num">2.4</span>Use NVIDIA Air to simulate network environments and identify potential issues.</li>
+        <li><span class="obj-num">2.5</span>Diagnose congestion or packet loss using in-band telemetry and NVIDIA What Just Happened (WJH) services.</li>
+        <li><span class="obj-num">2.6</span>Use NetQ for real-time network monitoring, including congestion detection and latency measurements.</li>
+        <li><span class="obj-num">2.7</span>Install NVIDIA DOCA.</li>
+        <li><span class="obj-num">2.8</span>Configure NVIDIA SuperNIC functionality for advanced packet processing and congestion control.</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Recommended training <span class="count">1</span></h2>
+      <ul class="links">
+        <li><a href="https://www.nvidia.com/en-us/training/academy/course-detail/?id=course%3A15139853" target="_blank" rel="noopener"><span class="title">NVIDIA Cumulus Linux Essentials | NVIDIA Academy</span><span class="meta">nvidia.com</span></a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Study resources <span class="count">32</span></h2>
+      <ul class="links">
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-netq-48/Monitor-Operations/Monitor-Adaptive-Routing/" target="_blank" rel="noopener"><span class="title">Adaptive Routing: Cumulus NetQ 4.8 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/blog/automating-data-center-networks-with-nvidia-nvue-and-ansible/" target="_blank" rel="noopener"><span class="title">Automating Data Center Networks With NVIDIA NVUE and Ansible | NVIDIA Technical Blog</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-510/Network-Virtualization/Ethernet-Virtual-Private-Network-EVPN/Basic-Configuration/" target="_blank" rel="noopener"><span class="title">Basic Configuration: Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-59/Layer-3/Routing/BGP-Weighted-Equal-Cost-Multipath/" target="_blank" rel="noopener"><span class="title">BGP Weighted Equal Cost Multipath: Cumulus Linux 5.7 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://github.com/NVIDIA/cloudai" target="_blank" rel="noopener"><span class="title">CloudAI Benchmark Framework | GitHub</span><span class="meta">github.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-netq-411/Manage-Events-and-Notifications/Config-TCA-Event-Notif/#create-multiple-rules-for-a-single-event" target="_blank" rel="noopener"><span class="title">Configure and Monitor Threshold-Crossing Events | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/doca/archive/doca-v2.2.0/developer-guide/index.html" target="_blank" rel="noopener"><span class="title">Developer Guide | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/blog/diagnosing-network-issues-faster-with-wjh/" target="_blank" rel="noopener"><span class="title">Diagnosing Network Issues Faster With NVIDIA WJH | NVIDIA Technical Blog</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/doca/sdk/nvidia+doca+profiles/index.html" target="_blank" rel="noopener"><span class="title">DOCA Profiles | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://www.nvidia.com/en-us/networking/products/ethernet/supernic/" target="_blank" rel="noopener"><span class="title">Ethernet SuperNICs: Networking for Next Wave of AI</span><span class="meta">nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-510/Network-Virtualization/Ethernet-Virtual-Private-Network-EVPN/EVPN-Multihoming/" target="_blank" rel="noopener"><span class="title">EVPN Multihoming: Cumulus Linux 5.10 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-netq-411/Flow-Analysis/" target="_blank" rel="noopener"><span class="title">Flow Analysis: Cumulus NetQ 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/networking/doca/getting-started" target="_blank" rel="noopener"><span class="title">Get Started With NVIDIA DOCA</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/guides/Data-Center-Interconnect-Reference-Design-Guide/Layer-3-Extensions-with-VRF-Route-Leaking/" target="_blank" rel="noopener"><span class="title">Layer 3 Extensions With VRF Route Leaking | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/blog/maximize-network-automation-efficiency-with-digital-twins/" target="_blank" rel="noopener"><span class="title">Maximize Network Automation Efficiency With Digital Twins on NVIDIA Air | NVIDIA Technical Blog</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://www.nvidia.com/en-gb/networking/ethernet-switching/netq/" target="_blank" rel="noopener"><span class="title">Network Operations and Cumulus NetQ</span><span class="meta">nvidia.com</span></a></li>
+        <li><a href="https://www.nvidia.com/en-gb/networking/ethernet-switching/air/" target="_blank" rel="noopener"><span class="title">NVIDIA Air</span><span class="meta">nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking/display/connectx8SuperNIC" target="_blank" rel="noopener"><span class="title">NVIDIA ConnectX-8 SuperNIC User Manual | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/doca/archive/2-9-0/NVIDIA+DOCA+Profiles/index.html" target="_blank" rel="noopener"><span class="title">NVIDIA DOCA Profiles | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://nvidianews.nvidia.com/news/nvidia-launches-accelerated-ethernet-platform-for-hyperscale-generative-ai" target="_blank" rel="noopener"><span class="title">NVIDIA Launches Accelerated Ethernet Platform for Hyperscale Generative AI</span><span class="meta">nvidianews.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/nvue-reference/Set-and-Unset-Commands/QoS/" target="_blank" rel="noopener"><span class="title">QoS” NVUE 5.x | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-59/Layer-1-and-Switch-Ports/Quality-of-Service/RDMA-over-Converged-Ethernet-RoCE/" target="_blank" rel="noopener"><span class="title">RDMA over Converged Ethernet (RoCE): Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-510/Monitoring-and-Troubleshooting/Resource-Diagnostics-Using-cl-resource-query/" target="_blank" rel="noopener"><span class="title">Resource Diagnostics Using cl-resource-query: Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-netq-411/Installation-Management/Install-NetQ/KVM-Setup-sngl-op/" target="_blank" rel="noopener"><span class="title">Set Up Your KVM Virtual Machine for a Single On-Premises Server: Cumulus NetQ 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://resources.nvidia.com/en-us-accelerated-networking-resource-library/networking-ethernet-1?ncid=no-ncid" target="_blank" rel="noopener"><span class="title">Spectrum-X Datasheet</span><span class="meta">resources.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/troubleshooting.html" target="_blank" rel="noopener"><span class="title">Troubleshooting | NCCL 2.28.3 Documentation</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/blog/turbocharging-ai-workloads-with-nvidia-spectrum-x-networking-platform/" target="_blank" rel="noopener"><span class="title">Turbocharging Generative AI Workloads With NVIDIA Spectrum-X Networking Platform | NVIDIA Technical Blog</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/blog/using-vxlan-routing-with-evpn-through-asymmetric-or-symmetric-models/" target="_blank" rel="noopener"><span class="title">Using VXLAN Routing With EVPN Through Asymmetric or Symmetric Models | NVIDIA Technical Blog</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-42/Layer-3/VRFs/Virtual-Routing-and-Forwarding-VRF/" target="_blank" rel="noopener"><span class="title">Virtual Routing and Forwarding (VRF): Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://blogs.nvidia.com/blog/what-is-a-supernic/" target="_blank" rel="noopener"><span class="title">What Is a SuperNIC? | NVIDIA Blog</span><span class="meta">blogs.nvidia.com</span></a></li>
+        <li><a href="https://enterprise-support.nvidia.com/s/article/what-is-iser-x" target="_blank" rel="noopener"><span class="title">What Is ISER? | NVIDIA Enterprise Support Portal</span><span class="meta">enterprise-support.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-510/Monitoring-and-Troubleshooting/Network-Troubleshooting/Mellanox-WJH/" target="_blank" rel="noopener"><span class="title">What Just Happened (WJH): Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Personal study hub for the NVIDIA-Certified Professional: AI Networking exam. Not affiliated with or endorsed by NVIDIA.
+    Links taken from the official exam study guide; every link verified live on October 8, 2026.</p>
+  </footer>
+  <script>document.querySelector('.topics [aria-current]')?.scrollIntoView({block: 'nearest', inline: 'center'});</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Troubleshooting Tools · NCP-AIN Study Hub</title>
+  <meta name="description" content="Use diagnostic command-line tools and telemetry (e.g., cl-resource-query, WJH, ib_write_lat, NetQ, UFM) for root-cause analysis of latency, congestion, or connectivity issues in AI networks. Quickly identify faults in complex environments and recommend effective, production-ready remediation strategies.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html" aria-label="NCP-AIN Study Hub home">
+        <picture>
+          <source srcset="assets/nvidia-logo-white.svg" media="(prefers-color-scheme: dark)">
+          <img src="assets/nvidia-logo.svg" alt="NVIDIA" width="131" height="24">
+        </picture>
+        <span class="brand-text">NCP-AIN Study Hub</span>
+      </a>
+    </div>
+    <nav class="topics" aria-label="Certification study topics">
+      <a href="data-center-design.html"><span class="num">1</span>AI Data Center Design and Optimization</a>
+      <a href="spectrum-networking.html"><span class="num">2</span>NVIDIA Spectrum Networking</a>
+      <a href="infiniband-networking.html"><span class="num">3</span>NVIDIA InfiniBand Networking</a>
+      <a href="kubernetes-integration.html"><span class="num">4</span>Kubernetes Integration</a>
+      <a href="troubleshooting-tools.html" aria-current="page"><span class="num">5</span>Troubleshooting Tools</a>
+      <a href="automation-and-configuration.html"><span class="num">6</span>Automation and Configuration</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Topic 5 · 20% of exam</p>
+      <h1>Troubleshooting Tools</h1>
+      <p class="lede">Use diagnostic command-line tools and telemetry (e.g., cl-resource-query, WJH, ib_write_lat, NetQ, UFM) for root-cause analysis of latency, congestion, or connectivity issues in AI networks. Quickly identify faults in complex environments and recommend effective, production-ready remediation strategies.</p>
+    </section>
+    <section>
+      <h2>Exam objectives</h2>
+      <ol class="objectives">
+        <li><span class="obj-num">5.1</span>Use tools like cl-resource-query to check resource allocation in Spectrum-X environments.</li>
+        <li><span class="obj-num">5.2</span>Use WJH services for real-time event analysis.</li>
+        <li><span class="obj-num">5.3</span>Verify low-latency interconnects between GPUs, CPUs, and storage systems.</li>
+        <li><span class="obj-num">5.4</span>Use UFM system health to diagnose InfiniBand issues.</li>
+        <li><span class="obj-num">5.5</span>Use commands like ib_write_lat, ib_write_bw, ibping, ibstat, ibdiagnet, ibnodes, and iblinkinfo to diagnose connectivity issues.</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Study resources <span class="count">20</span></h2>
+      <ul class="links">
+        <li><a href="https://docs.oracle.com/en/learn/gpudirect-rdma-ib-write-bw/index.html" target="_blank" rel="noopener"><span class="title">Benchmark NVIDIA GPUDirect RDMA With InfiniBand Write Bandwidth | Oracle Help Center</span><span class="meta">docs.oracle.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/blog/doubling-all2all-performance-with-nvidia-collective-communication-library-2-12/" target="_blank" rel="noopener"><span class="title">Doubling all2all Performance With NVIDIA Collective Communication Library 2.12 | NVIDIA Technical Blog</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-59/Layer-3/Routing/Forwarding-Table-Size-and-Profiles/" target="_blank" rel="noopener"><span class="title">Forwarding Table Size and Profiles: Cumulus Linux 5.7 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://enterprise-support.nvidia.com/s/article/ib-write-lat" target="_blank" rel="noopener"><span class="title">Ib_write_lat | NVIDIA Enterprise Support Portal</span><span class="meta">enterprise-support.nvidia.com</span></a></li>
+        <li><a href="https://docs.oracle.com/cd/E19654-01/820-7752-12/z400014c1567844.html#scrolltoc" target="_blank" rel="noopener"><span class="title">ibnetdiscover Command: Sun Datacenter InfiniBand Switch 72 | Oracle Help Center</span><span class="meta">docs.oracle.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking/display/WINOFv55054000/InfiniBand+Fabric+Diagnostic+Utilities" target="_blank" rel="noopener"><span class="title">InfiniBand Fabric Diagnostic Utilities | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://network.nvidia.com/products/infiniband-drivers/linux/mlnx_ofed/" target="_blank" rel="noopener"><span class="title">Linux InfiniBand Drivers</span><span class="meta">network.nvidia.com</span></a></li>
+        <li><a href="https://github.com/linux-rdma/perftest" target="_blank" rel="noopener"><span class="title">linux-rdma/perftest: Infiniband Verbs Performance Tests | GitHub</span><span class="meta">github.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/dgx-basepod/deployment-guide-basepod-rhel/latest/network-operator.html" target="_blank" rel="noopener"><span class="title">Network Operator: NVIDIA DGX BasePOD on RHEL | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://developer.nvidia.com/nccl" target="_blank" rel="noopener"><span class="title">NVIDIA Collective Communications Library (NCCL)</span><span class="meta">developer.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking/display/mlnxofedv23101190lts" target="_blank" rel="noopener"><span class="title">NVIDIA MLNX_OFED Documentation v23.10-1.1.9.0 LTS | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://www.nvidia.com/en-us/networking/infiniband/ufm/" target="_blank" rel="noopener"><span class="title">NVIDIA Unified Fabric Manager (UFM)</span><span class="meta">nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-44/Monitoring-and-Troubleshooting/Resource-Diagnostics-Using-cl-resource-query/" target="_blank" rel="noopener"><span class="title">Resource Diagnostics Using cl-resource-query: Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-512/Monitoring-and-Troubleshooting/Resource-Diagnostics/" target="_blank" rel="noopener"><span class="title">Resource Diagnostics: Cumulus Linux 5.12 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-netq-412/Monitor-Operations/Monitor-Switches/" target="_blank" rel="noopener"><span class="title">Switches: Cumulus NetQ 4.12 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking/display/UFMEnterpriseUMv6221/System+Health" target="_blank" rel="noopener"><span class="title">System Health | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking/display/UFMEnterpriseUMv6154/UFM+Server+Health+Monitoring" target="_blank" rel="noopener"><span class="title">UFM Server Health Monitoring | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking/display/UFMEnterpriseUMv6151/UFM+System+Dump+Tab" target="_blank" rel="noopener"><span class="title">UFM System Dump Tab | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-510/Monitoring-and-Troubleshooting/Network-Troubleshooting/Mellanox-WJH/" target="_blank" rel="noopener"><span class="title">What Just Happened (WJH): Cumulus Linux 4.4 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+        <li><a href="https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-514/Monitoring-and-Troubleshooting/Network-Troubleshooting/Mellanox-WJH/" target="_blank" rel="noopener"><span class="title">What Just Happened (WJH): Cumulus Linux 5.14 | NVIDIA Docs</span><span class="meta">docs.nvidia.com</span></a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Personal study hub for the NVIDIA-Certified Professional: AI Networking exam. Not affiliated with or endorsed by NVIDIA.
+    Links taken from the official exam study guide; every link verified live on October 8, 2026.</p>
+  </footer>
+  <script>document.querySelector('.topics [aria-current]')?.scrollIntoView({block: 'nearest', inline: 'center'});</script>
+</body>
+</html>

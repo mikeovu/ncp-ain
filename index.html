@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NCP-AIN Study Hub</title>
+  <meta name="description" content="Study hub for the NVIDIA-Certified Professional: AI Networking exam.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html" aria-label="NCP-AIN Study Hub home">
+        <picture>
+          <source srcset="assets/nvidia-logo-white.svg" media="(prefers-color-scheme: dark)">
+          <img src="assets/nvidia-logo.svg" alt="NVIDIA" width="131" height="24">
+        </picture>
+        <span class="brand-text">NCP-AIN Study Hub</span>
+      </a>
+    </div>
+    <nav class="topics" aria-label="Certification study topics">
+      <a href="data-center-design.html"><span class="num">1</span>AI Data Center Design and Optimization</a>
+      <a href="spectrum-networking.html"><span class="num">2</span>NVIDIA Spectrum Networking</a>
+      <a href="infiniband-networking.html"><span class="num">3</span>NVIDIA InfiniBand Networking</a>
+      <a href="kubernetes-integration.html"><span class="num">4</span>Kubernetes Integration</a>
+      <a href="troubleshooting-tools.html"><span class="num">5</span>Troubleshooting Tools</a>
+      <a href="automation-and-configuration.html"><span class="num">6</span>Automation and Configuration</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">NVIDIA-Certified Professional</p>
+      <h1>AI Networking study hub</h1>
+      <p class="lede">The official NCP-AIN exam blueprint, one page per topic: the exam objectives plus the recommended training and readings from NVIDIA's study guide. 106 resources, all checked live.</p>
+    </section>
+    <section>
+      <h2>Exam topics by weight</h2>
+      <p class="note">Spectrum and InfiniBand are 60% of the exam together, and Troubleshooting Tools draws on both.</p>
+      <div class="cards">
+      <a class="card" href="data-center-design.html">
+        <span class="card-num">1</span>
+        <span class="card-title">AI Data Center Design and Optimization</span>
+        <span class="weight"><span class="weight-bar" style="width:17%"></span></span>
+        <span class="card-meta"><strong>5%</strong> of exam · 3 objectives · 19 resources</span>
+      </a>
+      <a class="card" href="spectrum-networking.html">
+        <span class="card-num">2</span>
+        <span class="card-title">NVIDIA Spectrum Networking</span>
+        <span class="weight"><span class="weight-bar" style="width:100%"></span></span>
+        <span class="card-meta"><strong>30%</strong> of exam · 8 objectives · 33 resources</span>
+      </a>
+      <a class="card" href="infiniband-networking.html">
+        <span class="card-num">3</span>
+        <span class="card-title">NVIDIA InfiniBand Networking</span>
+        <span class="weight"><span class="weight-bar" style="width:100%"></span></span>
+        <span class="card-meta"><strong>30%</strong> of exam · 4 objectives · 13 resources</span>
+      </a>
+      <a class="card" href="kubernetes-integration.html">
+        <span class="card-num">4</span>
+        <span class="card-title">Kubernetes Integration</span>
+        <span class="weight"><span class="weight-bar" style="width:17%"></span></span>
+        <span class="card-meta"><strong>5%</strong> of exam · 2 objectives · 9 resources</span>
+      </a>
+      <a class="card" href="troubleshooting-tools.html">
+        <span class="card-num">5</span>
+        <span class="card-title">Troubleshooting Tools</span>
+        <span class="weight"><span class="weight-bar" style="width:67%"></span></span>
+        <span class="card-meta"><strong>20%</strong> of exam · 5 objectives · 20 resources</span>
+      </a>
+      <a class="card" href="automation-and-configuration.html">
+        <span class="card-num">6</span>
+        <span class="card-title">Automation and Configuration</span>
+        <span class="weight"><span class="weight-bar" style="width:33%"></span></span>
+        <span class="card-meta"><strong>10%</strong> of exam · 2 objectives · 12 resources</span>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Personal study hub for the NVIDIA-Certified Professional: AI Networking exam. Not affiliated with or endorsed by NVIDIA.
+    Links taken from the official exam study guide; every link verified live on October 8, 2026.</p>
+  </footer>
+  <script>document.querySelector('.topics [aria-current]')?.scrollIntoView({block: 'nearest', inline: 'center'});</script>
+</body>
+</html>
