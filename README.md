@@ -6,6 +6,6 @@ Only links that resolved to a live page when last checked (October 8, 2026) are 
 
 ## Publishing
 
-Plain HTML/CSS with no build step. In the repo, go to **Settings → Pages**, choose **Deploy from a branch**, then select `main` / `(root)`.
+Plain HTML/CSS with no build step. Every push to `main` deploys through the GitHub Actions workflow in `.github/workflows/pages.yml`. You can also run it manually from the **Actions** tab. This only works if the repo's **Settings → Pages → Source** is set to **GitHub Actions**.
 
 Not affiliated with or endorsed by NVIDIA.
